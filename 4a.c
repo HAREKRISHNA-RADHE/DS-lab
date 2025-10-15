@@ -60,7 +60,7 @@ void insertAfter(struct Node **head, int data, int info) {
         printf("%d not found\n", data);
         return;
     }
-    struct Node *newNode = getNode(info);
+    struct Node *newNode = getNode(info); 
     newNode->next = temp->next;
     temp->next = newNode;
 }
