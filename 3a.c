@@ -81,14 +81,12 @@ int main()
         case 4:
             printf("The queue is %s\n", (isEmpty() == 1 ? "Empty" : "Not Empty"));
             break;
-        case 6:
-            printf("\nThis code is executed by Mr. XYZ with Roll No XXXXXX\n");
-            break;
-        case 7:
-            printf("This code is executed by : Shreya Goel and Roll NO.2400320101071");
+
+        case 5:
+            printf("This code is executed by : Sakshi Soni and Roll NO.2400320100960\n");
             break;
         default:
             printf("Invalid Choice! Try again\n");
         }
-    } while (ch != 6);
+    } while (ch != 5);
 }
